@@ -7,7 +7,6 @@ class Xero_authorize extends CI_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->library('xero/Xero');
-        $this->load->model('xero_toval');
     }
     
     function index() {
